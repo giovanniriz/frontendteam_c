@@ -1,0 +1,8 @@
+.dash-main {
+  display: flex;
+}
+
+.dash-content {
+  margin-top: 60px;
+  margin-left: 50px;
+}

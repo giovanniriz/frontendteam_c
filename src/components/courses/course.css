@@ -1,0 +1,182 @@
+.course-card {
+  height: 220px;
+  width: 400px;
+  border: 1px grey solid;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.course-ba {
+  display: flex;
+}
+
+.course-c {
+  display: flex;
+}
+
+.courses-titlee {
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+.ft1 {
+  margin: 15px 0px 0px 15px;
+  height: 135px;
+  border-radius: 10px;
+  width: 170px;
+}
+
+.course-tbl {
+  display: flex;
+  margin-top: 0px;
+}
+.ll {
+  margin-top: -2px;
+}
+
+.cr-pen {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+}
+.kk {
+  margin-top: 4px;
+  font-family: sans-serif;
+}
+.kj {
+  font-family: sans-serif;
+  margin-top: 6px;
+}
+
+.course-edit {
+  width: 150px;
+  height: 35px;
+  border: 2px #25a7de solid;
+  margin-left: 15px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: #25a7de;
+}
+
+.course-student-list {
+  width: 150px;
+  height: 35px;
+  background-color: rgba(253, 233, 252, 1);
+  text-align: center;
+  margin-left: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.course-detail {
+  display: flex;
+}
+.course-cat {
+  display: flex;
+}
+
+.course-rat {
+  display: flex;
+}
+
+.cr-rat {
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+
+.cr-rv {
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-left: 20px;
+  color: rgba(130, 130, 130, 1);
+  margin-top: 10px;
+}
+
+.course-cate {
+  height: 20px;
+  width: 100px;
+  background-color: rgba(37, 167, 222, 1);
+  color: white;
+  margin: 15px 0px 0px 13px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.course-level {
+  height: 20px;
+  width: 80px;
+  border: 2px #f1b7ef solid;
+  color: rgba(51, 51, 51, 1);
+  margin: 15px 0px 0px 10px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.cr-pr {
+  font-size: 10px;
+  font-family: sans-serif;
+  color: rgba(51, 51, 51, 1);
+  margin-left: 15px;
+  margin-top: -5px;
+}
+
+.cr-cl {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: -17px;
+  margin-left: 15px;
+}
+
+.modal-user-pic {
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.modal-nav {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.modal-pics {
+  color: grey;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+.modal-names {
+  letter-spacing: 1px;
+  margin-left: 100px;
+  color: grey;
+  font-family: sans-serif;
+}
+
+.modal-gar {
+  border-bottom: 1px solid grey;
+}
+
+.modal-det {
+  display: flex;
+}
+
+.modal-nam {
+  margin-top: 40px;
+  margin-left: 180px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(51, 182, 238, 1);
+}

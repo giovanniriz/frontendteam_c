@@ -1,0 +1,387 @@
+.header-h1 {
+  position: absolute;
+  width: 128px;
+  height: 26.52px;
+  left: 60px;
+  top: 34px;
+  /* Blue */
+  color: #33b6ee;
+  font-size: 2.5rem;
+}
+
+/* CAROUSEL */
+
+.centerbook {
+  margin-top: 132px;
+}
+
+.detailbanner-cate {
+  position: absolute;
+  width: 469px;
+  height: 66px;
+  left: 32px;
+  top: 84px;
+
+  margin-top: 70px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 33px;
+
+  /* White */
+  color: #ffffff;
+}
+
+.browse-ft-ban {
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 100%;
+}
+
+.logg5 {
+  margin-top: -50px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.logg6 {
+  margin-top: -166px;
+  margin-left: 103px;
+}
+
+.logg7 {
+  position: absolute;
+  margin-top: -66px;
+  margin-left: -10px;
+}
+
+.react-multi-carousel-item {
+  max-width: 876px;
+  min-width: 876px;
+}
+
+.browse-ft {
+  height: 202px;
+  width: 350px;
+  margin-left: 500px;
+  margin-top: -70px;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(255, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.browse-best {
+  position: absolute;
+  text-align: center;
+  margin-left: 650px;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-top: -10px;
+  border-radius: 10px;
+  width: 113px;
+  height: 22px;
+  left: 94px;
+  top: 33px;
+  height: 30px;
+  width: 100px;
+  background-color: rgba(186, 84, 176, 1);
+  color: white;
+  -ms-transform: rotate(30deg); /* IE 9 */
+  transform: rotate(30deg);
+}
+
+.browse-bes {
+  margin-top: 5px;
+}
+
+.namebanner {
+  position: absolute;
+  width: 113px;
+  height: 22px;
+  left: 94px;
+  top: 33px;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+
+  /* identical to box height */
+
+  /* White */
+  color: #ffffff;
+}
+
+.detailbanner {
+  position: absolute;
+  width: 439px;
+  height: 66px;
+  left: 32px;
+  top: 84px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 33px;
+
+  /* White */
+  color: #ffffff;
+}
+
+/*DROPDOWN MENU*/
+
+.bootstrap-dropdown-1 {
+  position: absolute;
+  width: 91px;
+  height: 28px;
+  left: 26rem;
+  top: 22rem;
+}
+
+.bootstrap-dropdown-2 {
+  position: absolute;
+  width: 91px;
+  height: 28px;
+  left: 36rem;
+  top: 22rem;
+}
+
+.bootstrap-dropdown-3 {
+  position: absolute;
+  width: 91px;
+  height: 28px;
+  left: 44rem;
+  top: 22rem;
+}
+
+.bootstrap-dropdown-4 {
+  position: absolute;
+  width: 91px;
+  height: 28px;
+  left: 51rem;
+  top: 22rem;
+}
+
+/*PICTURE CONTENT*/
+
+.picture-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px 15px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+  height: 300px;
+  width: 300px;
+}
+.content {
+  display: inline-block;
+  margin-left: 10rem;
+  margin-right: -100px;
+}
+
+.picture-content-1 {
+  width: 285.58px;
+  height: 297.32px;
+  border-radius: 16px;
+  border-style: none;
+  margin-top: 50px;
+}
+
+.picture-content-1 h1 {
+  margin-top: 8rem;
+  margin-left: 1rem;
+  padding-top: 14rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.picture-content-1 p {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+  margin-left: 1rem;
+}
+
+.picture-content-1-star {
+  margin-top: -4rem;
+  padding-left: 14rem;
+}
+
+.picture-content-1 .rating {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: -1.4rem;
+  padding-left: 16rem;
+  color: #000000;
+}
+
+.picture-content-1 .category {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+  margin-top: 0.2rem;
+  padding-left: 13rem;
+}
+
+.picture-content-1 .start-from {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.picture-content-1 .price {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #25a7de;
+  margin-left: 1rem;
+}
+
+.is-love {
+  margin-left: 15rem;
+  margin-top: 0.3rem;
+}
+
+.is-rev {
+  color: grey;
+  font-size: 11px;
+  margin-left: 14rem;
+  margin-top: -20px;
+}
+
+.gridx {
+  left: 252px;
+  right: 252px;
+  justify-items: center;
+}
+
+.droproot {
+  background-color: blue;
+}
+
+/*BANNER LEFT*/
+
+.banner .banner-left {
+  position: absolute;
+  width: 826px;
+  height: 15rem;
+  left: -30rem;
+  top: 0px;
+  background: linear-gradient(
+      90deg,
+      #105573 0%,
+      #105573 1%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    url("../../assets/emma-matthews-digital-content-production-O_CLjxjzN3M-unsplash.jpg");
+  border-radius: 8px;
+  padding-top: 2rem;
+  margin-top: 9rem;
+}
+
+.banner .banner-left .best-seller {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  left: 760px;
+  top: -15px;
+  background: #ba54b0;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  transform: rotate(-50deg);
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.banner .banner-left .best-seller h3 {
+  color: rgb(10, 0, 0);
+  width: 60px;
+  height: 0.1rem;
+  left: 900px;
+  top: 90px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  transform: rotate(90deg);
+  margin-right: 90rem;
+}
+
+/* BANNER MID*/
+
+.banner .banner-mid {
+  position: absolute;
+  width: 550px;
+  height: 240px;
+  left: 25rem;
+  top: 9rem;
+
+  background: linear-gradient(
+    90deg,
+    #105573 0%,
+    #105573 60.83%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 8px;
+}
+
+/*BANNER RIGHT*/
+
+.banner .banner-right {
+  position: absolute;
+  width: 320px;
+  height: 240px;
+  left: 65rem;
+  top: 9rem;
+
+  background: linear-gradient(
+    90deg,
+    #105573 0%,
+    #105573 60.83%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 8px;
+}
+
+.footer {
+  width: 100vmax;
+  margin-top: 1800px;
+}

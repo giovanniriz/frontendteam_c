@@ -1,0 +1,244 @@
+.dashboard-container {
+  display: flex;
+}
+
+.dashboard-profile {
+  display: flex;
+  height: 100px;
+  width: 320px;
+  background-color: rgba(16, 85, 115, 1);
+  border-radius: 10px;
+  color: white;
+}
+
+.flexnxx {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  flex-flow: wrap;
+}
+
+.goo-log {
+  margin-top: 30px;
+  margin-left: 500px;
+  background: rgba(246, 252, 255, 1);
+  border-radius: 10px !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  height: 50px;
+  width: 200px;
+}
+
+.goo-log > div {
+  margin-left: 35px;
+}
+
+.goo-log > span {
+  letter-spacing: 2px;
+}
+
+.foto-user {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.welcome-con {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.welcome-name {
+  font-weight: bold;
+  font-size: large;
+}
+
+.pensil {
+  width: 40px;
+  height: 35px;
+  margin-left: 80px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn-dashboard-logout {
+  position: absolute;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border-color: rgba(186, 84, 176, 1);
+  border-style: solid;
+  color: white;
+  background-color: rgba(186, 84, 176, 1);
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 800px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.dashboard-mycourse {
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+.dashboard-course-container {
+  background-image: url("https://i.ibb.co/dcBsjnx/Rectangle-22.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-right: 2px solid lightblue;
+  border-left: 2px solid lightblue;
+  width: 350px;
+  height: 200px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+  clear: both;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboardA {
+  clear: both;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboardB {
+  display: flex;
+}
+
+.dbd {
+  display: flex;
+  margin-top: -10px;
+}
+
+.dba {
+  margin-top: -3px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.dbc {
+  margin-top: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.dashboard-note {
+  height: 15px;
+}
+.dashboard-vektor {
+  height: 15px;
+}
+
+.detail-dashboard-mycourse {
+  margin-left: 20px;
+}
+
+.dashboard-foto-tutor {
+  height: 60px;
+  width: 60px;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+.dashboard-write-review {
+  margin-top: -7px;
+  width: 150px;
+  height: 37px;
+  border: 1px solid rgba(186, 84, 176, 1);
+  border-radius: 10px;
+  text-align: center;
+  color: rgba(186, 84, 176, 1);
+  font-size: 14px;
+  display: flex;
+  cursor: pointer;
+}
+
+.dashboard-category {
+  position: absolute;
+  margin-left: 210px;
+  margin-top: -180px;
+  width: 100px;
+  height: 28px;
+  background-color: rgba(186, 84, 176, 1);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.rev {
+  height: 18px;
+  width: 20px;
+  margin-top: 8px;
+  margin-left: 20px;
+  margin-right: 8px;
+}
+
+.dbz {
+  margin-top: 5px;
+}
+
+.modal-det {
+  display: flex;
+}
+
+.modal-nm {
+  font-family: sans-serif;
+  margin: 15px 0px 0px 20px;
+  color: grey;
+}
+
+.modal-ft {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.modal-input-cour {
+  width: 400px;
+  height: 100px;
+  text-indent: 10px;
+  margin-left: 70px;
+  border-radius: 10px;
+}
+
+.modal-ra {
+  margin-top: 100px;
+}
+
+.modal-wh {
+  font-family: sans-serif;
+  color: grey;
+  text-align: center;
+}
+
+.modal-yo {
+  font-family: sans-serif;
+  color: grey;
+  margin-bottom: 20px;
+  margin-left: 210px;
+}
+
+.react-stars {
+  margin-left: 180px;
+}
+
+.modal-sa {
+  height: 50px;
+  width: 200px;
+  background-color: rgba(186, 84, 176, 1);
+  margin-left: 180px;
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  font-size: 20px;
+}

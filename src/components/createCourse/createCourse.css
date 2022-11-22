@@ -1,0 +1,218 @@
+.create-course-upload-pic {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.create-course-add-image {
+  border: 2px solid rgba(37, 167, 222, 1);
+  color: rgba(37, 167, 222, 1);
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.create-course-upload-pic input[type="file"] {
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.create-course-title {
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-top: -25px;
+}
+
+.create-course-container {
+  display: flex;
+}
+
+.create-max-file {
+  font-size: 12px;
+  color: rgba(153, 153, 153, 1);
+  font-style: italic;
+}
+.create-course-input-title {
+  text-indent: 10px;
+  height: 40px;
+  border: 2px solid rgba(159, 159, 159, 1);
+  color: rgba(159, 159, 159, 1);
+  width: 630px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.create-course-input {
+}
+.create-course-input-level {
+  height: 40px;
+  border: 2px solid rgba(159, 159, 159, 1);
+  color: rgba(159, 159, 159, 1);
+  width: 630px;
+  border-radius: 5px;
+}
+
+.create-course-category {
+  margin: 10px 0px 0px 0px;
+}
+
+.create-course-input-category {
+  height: 40px;
+  color: rgba(159, 159, 159, 1);
+  border-radius: 5px;
+  width: 305px;
+  border: 2px solid rgba(159, 159, 159, 1);
+}
+.create-course-subject {
+  margin: 10px 0px 0px 20px;
+}
+
+.create-course-input-subject {
+  height: 40px;
+  border-radius: 5px;
+  color: rgba(159, 159, 159, 1);
+  width: 305px;
+  border: 2px solid rgba(159, 159, 159, 1);
+}
+.create-course-div-flex {
+  display: flex;
+}
+
+.create-course-texteditor {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ck-editor__editable {
+  height: 270px;
+}
+
+.ck.ck-reset .ck.ck-reset_all .ck.ck-reset_all * {
+  width: 100px;
+}
+
+.ook {
+  display: flex;
+  margin-top: -15px;
+}
+
+.create-course-p-price {
+  font-size: 10px;
+  margin-top: -15px;
+  font-style: italic;
+}
+
+.create-course-regular {
+  margin-top: 10px;
+}
+
+.create-course-premium {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.create-course-input-regular {
+  width: 305px;
+  height: 40px;
+  border-radius: 7px;
+  border: 2px solid rgba(159, 159, 159, 1);
+}
+
+.create-course-input-premium {
+  border-radius: 7px;
+  width: 305px;
+  height: 40px;
+  border: 2px solid rgba(159, 159, 159, 1);
+}
+
+.ck-sticky-panel__content {
+  width: 400px;
+}
+
+.ck.ck-editor {
+  max-width: 630px;
+}
+
+.create-course-save {
+  border-style: none;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 430px;
+  width: 200px;
+  background-color: rgba(186, 84, 176, 1);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.create-course-preview-con {
+  margin-left: 50px;
+  height: 400px;
+  border-radius: 15px;
+  width: 460px;
+  border: 2px solid rgba(241, 183, 239, 1);
+  background-color: rgba(252, 250, 252, 1);
+}
+
+.create-course-preview-titless {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.create-course-preview-photo {
+  margin-left: 30px;
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.create-course-name-tutor {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -50px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.create-course-preview-description {
+  margin-left: 33px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.create-course-preview-start {
+  font-size: 12px;
+  font-style: italic;
+  color: rgba(130, 130, 130, 1);
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+.create-course-preview-regular {
+  margin-top: -15px;
+  margin-left: 35px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgba(37, 167, 222, 1);
+}
+
+.create-course-preview-subject {
+  margin-top: -27px;
+  margin-left: 50px;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgba(130, 130, 130, 1);
+}

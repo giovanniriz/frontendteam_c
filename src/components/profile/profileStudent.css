@@ -1,0 +1,142 @@
+.profile-picturese {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.profile-setting-title {
+  font-family: sans-serif;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.garis-tengah {
+  border-right: 1px solid;
+  border-color: #e1e0e0;
+  height: 470px;
+  margin-left: 210px !important;
+  margin-top: -30px;
+  position: absolute;
+}
+
+.profile-setting-con {
+  display: flex;
+}
+
+.sett-name {
+  font-size: 20px;
+  margin-top: -10px !important;
+  margin-left: 40px;
+  margin-top: 30px;
+  color: rgba(159, 159, 159, 1);
+}
+
+.sett-email {
+  width: 200px;
+  margin-left: -10px;
+  margin-top: 10px;
+  color: rgba(51, 182, 238, 1);
+}
+
+.baris2 {
+  display: flex;
+}
+
+.input-profile-setting {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  text-indent: 10px;
+  margin-top: -10px;
+}
+.llkj {
+  display: flex;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 260px;
+  margin-top: 45px;
+}
+
+.profile-upload-stud {
+  border-style: none;
+  color: white;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  background-color: rgba(186, 84, 176, 1);
+  padding: 2px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  height: 40px;
+  width: 250px;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  height: 40px;
+  width: 250px;
+}
+
+.input-profile-photo {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  text-indent: 10px;
+  margin-top: -10px;
+}
+.profile-setting-name {
+  margin-left: 120px !important;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+.profile-setting-email {
+  margin-left: 260px !important;
+  margin-top: -30px !important;
+  font-family: sans-serif;
+}
+
+.profile-setting-password {
+  font-family: sans-serif;
+  margin-left: 260px !important ;
+  margin-top: -30px !important;
+  font-family: sans-serif;
+}
+.profile-setting-link {
+  margin-left: 90px !important;
+  margin-top: -210px !important;
+  font-family: sans-serif;
+}
+
+.btn-save-profile {
+  height: 35px;
+  font-weight: bold;
+  width: 100px;
+  margin-top: 200px;
+  margin-left: 20px;
+  color: white;
+  background-color: rgba(186, 84, 176, 1);
+  border-style: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.profile-picturePr {
+  margin-top: -120px !important;
+  margin-left: -240px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}

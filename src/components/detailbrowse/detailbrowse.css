@@ -1,0 +1,1248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bgr {
+  position: absolute;
+  width: 100vw;
+  height: 352px;
+  left: 0px;
+  top: 0px;
+  background-position: center center;
+  background: linear-gradient(
+      2.4deg,
+      #ffffff 44.98%,
+      rgba(255, 255, 255, 0) 98.16%
+    ),
+    url(./bgr.jpeg);
+}
+
+.logg8 {
+  margin-top: -50px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.logg9 {
+  margin-top: -166px;
+  margin-left: 103px;
+}
+
+.logg10 {
+  position: absolute;
+  margin-top: -66px;
+  margin-left: -10px;
+}
+
+.header-banner {
+  position: absolute;
+  width: 100vw;
+  height: 352px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(
+      2.4deg,
+      #ffffff 44.98%,
+      rgba(255, 255, 255, 0) 98.16%
+    ),
+    url("https://s3-alpha-sig.figma.com/img/29a4/cf56/e5c7dede2e2542b4deab2b56b33b9b3a?Expires=1625443200&Signature=dkmSTqjpw6r2hq9tqs0SgSUlqJcNqkxtyPqUfxF75k1vuBKUCM8ed5Z99Vmg2hpHZ~puzh4-q9tYW86lLDeOZ5E6NR2GoNhczFel7byG9fVdkO04c12Om42Kc3T1pjGAxbs~7y~G~hbFmc~BhYLOeWk~hzdxwfwf50MVe-YhWP-yU7G5YZGLYZqgStk0-3QNyB1xRH8xfk~fj~nRphwi96h14qMGeW-PdSNy5q87wzipUoRzNHG-fKenkVqEYkOShUGbD4KHahJKJTE1sIU~uawtmV8kvgbJx2-jHfoSAixw8V9clXBjGcIXoxQLJ8XVw10vXfFt4k7A~~i2TkylCw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-position: center center;
+  background-size: cover;
+  z-index: 3;
+}
+
+.header-h1 {
+  position: absolute;
+  width: 128px;
+  height: 26.52px;
+  left: 60px;
+  top: 34px;
+  /* Blue */
+  color: #33b6ee;
+  font-size: 2.5rem;
+}
+
+.header-banner .searchbar {
+  z-index: 2;
+}
+
+.header-banner .header-content h1 {
+  position: absolute;
+  width: 758px;
+  height: 36px;
+  left: 517px;
+  top: 176px;
+  font-family: EB Garamond;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333333;
+}
+
+/*HEADER CONTENT LEFT*/
+.header-left .header-left-photo {
+  position: absolute;
+  width: 278px;
+  height: 290px;
+  left: 10rem;
+  top: 176px;
+  background: url(https://s3-alpha-sig.figma.com/img/ad15/8125/c86f758b8cc32346a4534a0f2cf39a28?Expires=1625443200&Signature=gSK30tnNMNEMLZErsFGeNwcgzNOoO1V6AehYMhizgCJJFDglQUhFGTmAHlfLzwdQLPqhSE5c2yL-5uSBkAVC05WVW-dJ5TzPwao0t6Uyesi8uSu2UQzNvnG5vr3mCbFjpo26zfseEWdeEd9hATMNB1UKoTf2-~2YbHOEEGByUJjRJddz795rfdvonNtC~hcCZ11Xt43zx84O04NKUNzbTJ4g7X1vXkMkY3sMYmy34UImiWI~sUAPA35w~LyvA6HH-kcmmUEVHFwYrzoJc-qrRpdDnfDC5Yaa5Ecax-b0IgDFs9W0VtuUK87oUKszOAM1FCUBsnF0~yzL7wXgIj8t0Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+  border-radius: 16px;
+}
+
+.header-left .box-model-category {
+  position: absolute;
+  width: 96px;
+  height: 51px;
+  left: 10rem;
+  top: 31rem;
+  background: #f7fcff;
+  border: 1px solid #33b6ee;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.header-left .box-model-category .category {
+  position: absolute;
+  width: 43px;
+  height: 14px;
+  left: calc(50% - 43px / 2 - 0.5px);
+  top: calc(50% - 14px / 2 - 10.5px);
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #828282;
+}
+
+.header-left .box-model-category .design {
+  position: absolute;
+  width: 48px;
+  height: 19px;
+  margin-left: -5px;
+  left: calc(50% - 48px / 2);
+  top: calc(50% - 19px / 2 + 8px);
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.header-left .box-model-subject {
+  position: absolute;
+  width: 143px;
+  height: 51px;
+  left: 17rem;
+  top: 31rem;
+  background: #f7fcff;
+  border: 1px solid #33b6ee;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.header-left .box-model-subject .subject {
+  position: absolute;
+  width: 35px;
+  height: 14px;
+  left: calc(50% - 35px / 2 + 1px);
+  top: calc(50% - 14px / 2 - 10.5px);
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #828282;
+}
+
+.header-left .box-model-subject .fashion-design {
+  position: absolute;
+  width: 106px;
+  height: 19px;
+  margin-left: 20px;
+  left: calc(50% - 90px / 2 + 1px);
+  top: calc(50% - 19px / 2 + 8px);
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.header-left .box-model-level {
+  position: absolute;
+  width: 104px;
+  height: 51px;
+  left: 10rem;
+  top: 35rem;
+  background: #fde9fc;
+  border: 1px solid #f1b7ef;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.header-left .box-model-level .level {
+  position: absolute;
+  width: 24px;
+  height: 14px;
+  left: calc(50% - 24px / 2);
+  top: calc(50% - 14px / 2 - 9.5px);
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #828282;
+}
+
+.header-left .box-model-level .tutor-level {
+  position: absolute;
+  width: 64px;
+  height: 19px;
+  left: calc(50% - 64px / 2);
+  top: calc(50% - 19px / 2 + 7px);
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.header-left .payment-option {
+  position: absolute;
+  width: 88px;
+  height: 22px;
+  left: 10rem;
+  top: 42rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.payment-option .radio-button .span-1 {
+  position: absolute;
+  width: 52px;
+  height: 19px;
+  left: 22px;
+  top: 1.4rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.payment-option .radio-button .span-2 {
+  position: absolute;
+  width: 183px;
+  height: 16px;
+  left: 22px;
+  top: 2.8rem;
+  font-family: Noto Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #bdbdbd;
+}
+
+.payment-option .radio-button .span-3 {
+  position: absolute;
+  width: 166px;
+  height: 25px;
+  left: 22px;
+  top: 4rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #25a7de;
+}
+
+.payment-option .radio-button .radio-button-diff {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 6px;
+  top: 130px;
+}
+
+.payment-option .radio-button .radio-button-diff .span-4 {
+  position: absolute;
+  width: 61px;
+  height: 19px;
+  left: 20px;
+  top: 1px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.payment-option .radio-button .radio-button-diff .span-5 {
+  position: absolute;
+  width: 198px;
+  height: 16px;
+  left: 20px;
+  top: 1.5rem;
+  font-family: Noto Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #bdbdbd;
+}
+
+.payment-option .radio-button .radio-button-diff .span-6 {
+  position: absolute;
+  width: 166px;
+  height: 25px;
+  left: 20px;
+  top: 2.7rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #25a7de;
+}
+
+.payment-option .radio-button .enroll-button {
+  position: absolute;
+  width: 278px;
+  height: 45px;
+  left: 5px;
+  top: 270px;
+  background: #ba54b0;
+  box-shadow: 0px 4px 10px rgba(33, 68, 87, 0.2);
+  border-radius: 8px;
+}
+
+.payment-option .radio-button button span {
+  color: white;
+  font-weight: bold;
+}
+
+/*HEADER CONTENT*/
+
+.header-content .star-content {
+  position: absolute;
+  left: 517px;
+  right: 0.47%;
+  top: 220px;
+  bottom: 5.78%;
+  border-radius: 1px;
+}
+
+.header-content .rating-content {
+  position: absolute;
+  width: 22.97px;
+  height: 22.02px;
+  left: 552.21px;
+  top: 221px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.header-content .review-content {
+  position: absolute;
+  width: 79px;
+  height: 22px;
+  left: 602px;
+  top: 221px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.header-content .about-content {
+  position: absolute;
+  width: 758px;
+  height: 66px;
+  left: 517px;
+  top: 276px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.header-content .skills-content {
+  position: absolute;
+  width: 42px;
+  height: 22px;
+  left: 518px;
+  top: 377px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.header-content .skills-description-content {
+  position: absolute;
+  width: 357px;
+  height: 22px;
+  left: 518px;
+  top: 406px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.header-content .achievement-content {
+  position: absolute;
+  width: 105px;
+  height: 22px;
+  left: 517px;
+  top: 447px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.header-content .achievement-description-content-1 {
+  position: absolute;
+  width: 196px;
+  height: 22px;
+  left: 518px;
+  top: 477px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.header-content .achievement-description-content-2 {
+  position: absolute;
+  width: 186px;
+  height: 22px;
+  left: 518px;
+  top: 510px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.about-this-course {
+  position: absolute;
+  width: 758px;
+  height: 172px;
+  left: 517px;
+  top: 579px;
+  background: #fcfafc;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.about-this-course .about-this-course-content {
+  position: absolute;
+  width: 176px;
+  height: 27px;
+  left: 29px;
+  top: 19px;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.about-this-course .about-this-course-description {
+  position: absolute;
+  left: 3.83%;
+  right: 4.62%;
+  top: 32.56%;
+  bottom: 10.99%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+}
+
+.reviews {
+  position: absolute;
+  width: 758px;
+  height: 1400px;
+  left: 517px;
+  top: 806px;
+  background: #ffffff;
+  border: 1px solid #e1e0e0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.reviews .reviews-value {
+  position: absolute;
+  width: 147px;
+  height: 33.15px;
+  left: 2rem;
+  top: 2rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+/*REVIEWS 1*/
+
+.reviews .reviews-detail .reviews-line {
+  position: absolute;
+  width: 674.55px;
+  height: 0px;
+  left: 2rem;
+  top: 5.5rem;
+  border: 1px solid #e1e0e0;
+}
+
+/* 
+.reviews .reviews-detail .reviews-detail-photo {
+    position: absolute;
+    width: 72.49px;
+    height: 47.83px;
+    left: 7.51px;
+    top: 35.09px;
+    background: url('https://s3-alpha-sig.figma.com/img/3484/2dcf/7913e2a7df3dc2fc000db38ea4bfad2b?Expires=1625443200&Signature=HLixxYjnb7zvzLKECnIORLYnYQ4CO1kXDPF6FA3Dw7-hx1eGIAoO3TWGo3bxZBX2iRplBnBkeBC2Dh3neir5ZnhdM8B5w7OzTodk74FyLWf3uxM8WWjh7SzyNBjtVrAbcxsRxJDaaQ1qQUFpj~09UJ72bziTBJJWxh3a9CUVcWLOUeOwBQEBKbrdP70VnRmNDJoOYjS74P3LBQzpswSBQfU3n7ZxG5oYvbT6DgMKMRF~2nD9ZQJ88jABeAtKr0V7w8sSNA95pmA9uEe6y0jj31Ny0wwk3K1Bp2XbTpAG7B8ceWk0eqyx1I11kOB~~SxjkILQLJPBk84ei59kI1ztgw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    
+} */
+
+.reviews .reviews-detail .reviews-detail-name {
+  position: absolute;
+  left: 12.13%;
+  right: 83.72%;
+  top: 8rem;
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.reviews .reviews-detail .reviews-detail-star {
+  position: absolute;
+  left: 5.6rem;
+  right: -3.5%;
+  top: 9.4rem;
+  bottom: 1.37%;
+  border-radius: 0.75px;
+}
+
+.reviews .reviews-detail .reviews-detail-time {
+  position: absolute;
+  left: 81.92%;
+  right: 2.97%;
+  top: 8rem;
+
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9f9f9f;
+}
+
+.reviews .reviews-detail .reviews-detail-review {
+  position: absolute;
+  width: 635.69px;
+  height: 54.41px;
+  left: 50px;
+  top: 200px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/*REVIEWS 2*/
+
+.reviews .reviews-detail-1 .reviews-line {
+  position: absolute;
+  width: 674.55px;
+  height: 0px;
+  left: 2rem;
+  top: 18rem;
+  border: 1px solid #e1e0e0;
+}
+
+/* 
+.reviews .reviews-detail .reviews-detail-photo {
+    position: absolute;
+    width: 72.49px;
+    height: 47.83px;
+    left: 7.51px;
+    top: 35.09px;
+    background: url('https://s3-alpha-sig.figma.com/img/3484/2dcf/7913e2a7df3dc2fc000db38ea4bfad2b?Expires=1625443200&Signature=HLixxYjnb7zvzLKECnIORLYnYQ4CO1kXDPF6FA3Dw7-hx1eGIAoO3TWGo3bxZBX2iRplBnBkeBC2Dh3neir5ZnhdM8B5w7OzTodk74FyLWf3uxM8WWjh7SzyNBjtVrAbcxsRxJDaaQ1qQUFpj~09UJ72bziTBJJWxh3a9CUVcWLOUeOwBQEBKbrdP70VnRmNDJoOYjS74P3LBQzpswSBQfU3n7ZxG5oYvbT6DgMKMRF~2nD9ZQJ88jABeAtKr0V7w8sSNA95pmA9uEe6y0jj31Ny0wwk3K1Bp2XbTpAG7B8ceWk0eqyx1I11kOB~~SxjkILQLJPBk84ei59kI1ztgw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    
+} */
+
+.reviews .reviews-detail-1 .reviews-detail-name {
+  position: absolute;
+  left: 12.13%;
+  right: 83.72%;
+  top: 20.5rem;
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.reviews .reviews-detail-1 .reviews-detail-star {
+  position: absolute;
+  left: 5.6rem;
+  right: -3.5%;
+  top: 21.8rem;
+  bottom: 1.37%;
+  border-radius: 0.75px;
+}
+
+.reviews .reviews-detail-1 .reviews-detail-time {
+  position: absolute;
+  left: 81.92%;
+  right: 2.97%;
+  top: 20.5rem;
+
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9f9f9f;
+}
+
+.reviews .reviews-detail-1 .reviews-detail-review {
+  position: absolute;
+  width: 635.69px;
+  height: 54.41px;
+  left: 50px;
+  top: 25rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/*REVIEWS 2*/
+
+.reviews .reviews-detail-2 .reviews-line {
+  position: absolute;
+  width: 674.55px;
+  height: 0px;
+  left: 2rem;
+  top: 30.8rem;
+  border: 1px solid #e1e0e0;
+}
+
+/* 
+.reviews .reviews-detail .reviews-detail-photo {
+    position: absolute;
+    width: 72.49px;
+    height: 47.83px;
+    left: 7.51px;
+    top: 35.09px;
+    background: url('https://s3-alpha-sig.figma.com/img/3484/2dcf/7913e2a7df3dc2fc000db38ea4bfad2b?Expires=1625443200&Signature=HLixxYjnb7zvzLKECnIORLYnYQ4CO1kXDPF6FA3Dw7-hx1eGIAoO3TWGo3bxZBX2iRplBnBkeBC2Dh3neir5ZnhdM8B5w7OzTodk74FyLWf3uxM8WWjh7SzyNBjtVrAbcxsRxJDaaQ1qQUFpj~09UJ72bziTBJJWxh3a9CUVcWLOUeOwBQEBKbrdP70VnRmNDJoOYjS74P3LBQzpswSBQfU3n7ZxG5oYvbT6DgMKMRF~2nD9ZQJ88jABeAtKr0V7w8sSNA95pmA9uEe6y0jj31Ny0wwk3K1Bp2XbTpAG7B8ceWk0eqyx1I11kOB~~SxjkILQLJPBk84ei59kI1ztgw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    
+} */
+
+.reviews .reviews-detail-2 .reviews-detail-name {
+  position: absolute;
+  left: 12.13%;
+  right: 83.72%;
+  top: 33.5rem;
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.reviews .reviews-detail-2 .reviews-detail-star {
+  position: absolute;
+  left: 5.6rem;
+  right: -3.5%;
+  top: 35rem;
+  bottom: 1.37%;
+  border-radius: 0.75px;
+}
+
+.reviews .reviews-detail-2 .reviews-detail-time {
+  position: absolute;
+  left: 81.92%;
+  right: 2.97%;
+  top: 33.5rem;
+
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9f9f9f;
+}
+
+.reviews .reviews-detail-2 .reviews-detail-review {
+  position: absolute;
+  width: 635.69px;
+  height: 54.41px;
+  left: 50px;
+  top: 38rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/*REVIEWS 3*/
+
+.reviews .reviews-detail-3 .reviews-line {
+  position: absolute;
+  width: 674.55px;
+  height: 0px;
+  left: 2rem;
+  top: 45rem;
+  border: 1px solid #e1e0e0;
+}
+
+/* 
+.reviews .reviews-detail .reviews-detail-photo {
+    position: absolute;
+    width: 72.49px;
+    height: 47.83px;
+    left: 7.51px;
+    top: 35.09px;
+    background: url('https://s3-alpha-sig.figma.com/img/3484/2dcf/7913e2a7df3dc2fc000db38ea4bfad2b?Expires=1625443200&Signature=HLixxYjnb7zvzLKECnIORLYnYQ4CO1kXDPF6FA3Dw7-hx1eGIAoO3TWGo3bxZBX2iRplBnBkeBC2Dh3neir5ZnhdM8B5w7OzTodk74FyLWf3uxM8WWjh7SzyNBjtVrAbcxsRxJDaaQ1qQUFpj~09UJ72bziTBJJWxh3a9CUVcWLOUeOwBQEBKbrdP70VnRmNDJoOYjS74P3LBQzpswSBQfU3n7ZxG5oYvbT6DgMKMRF~2nD9ZQJ88jABeAtKr0V7w8sSNA95pmA9uEe6y0jj31Ny0wwk3K1Bp2XbTpAG7B8ceWk0eqyx1I11kOB~~SxjkILQLJPBk84ei59kI1ztgw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    
+} */
+
+.reviews .reviews-detail-3 .reviews-detail-name {
+  position: absolute;
+  left: 12.13%;
+  right: 83.72%;
+  top: 48rem;
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.reviews .reviews-detail-3 .reviews-detail-star {
+  position: absolute;
+  left: 5.6rem;
+  right: -3.5%;
+  top: 49.5rem;
+  bottom: 1.37%;
+  border-radius: 0.75px;
+}
+
+.reviews .reviews-detail-3 .reviews-detail-time {
+  position: absolute;
+  left: 81.92%;
+  right: 2.97%;
+  top: 48rem;
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9f9f9f;
+}
+
+.reviews .reviews-detail-3 .reviews-detail-review {
+  position: absolute;
+  width: 635.69px;
+  height: 54.41px;
+  left: 50px;
+  top: 53rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/*REVIEWS 4*/
+
+.reviews .reviews-detail-4 .reviews-line {
+  position: absolute;
+  width: 674.55px;
+  height: 0px;
+  left: 2rem;
+  top: 60rem;
+  border: 1px solid #e1e0e0;
+}
+
+/* 
+.reviews .reviews-detail .reviews-detail-photo {
+    position: absolute;
+    width: 72.49px;
+    height: 47.83px;
+    left: 7.51px;
+    top: 35.09px;
+    background: url('https://s3-alpha-sig.figma.com/img/3484/2dcf/7913e2a7df3dc2fc000db38ea4bfad2b?Expires=1625443200&Signature=HLixxYjnb7zvzLKECnIORLYnYQ4CO1kXDPF6FA3Dw7-hx1eGIAoO3TWGo3bxZBX2iRplBnBkeBC2Dh3neir5ZnhdM8B5w7OzTodk74FyLWf3uxM8WWjh7SzyNBjtVrAbcxsRxJDaaQ1qQUFpj~09UJ72bziTBJJWxh3a9CUVcWLOUeOwBQEBKbrdP70VnRmNDJoOYjS74P3LBQzpswSBQfU3n7ZxG5oYvbT6DgMKMRF~2nD9ZQJ88jABeAtKr0V7w8sSNA95pmA9uEe6y0jj31Ny0wwk3K1Bp2XbTpAG7B8ceWk0eqyx1I11kOB~~SxjkILQLJPBk84ei59kI1ztgw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    
+} */
+
+.reviews .reviews-detail-4 .reviews-detail-name {
+  position: absolute;
+  left: 12.13%;
+  right: 83.72%;
+  top: 63rem;
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.reviews .reviews-detail-4 .reviews-detail-star {
+  position: absolute;
+  left: 5.6rem;
+  right: -3.5%;
+  top: 64rem;
+  bottom: 1.37%;
+  border-radius: 0.75px;
+}
+
+.reviews .reviews-detail-4 .reviews-detail-time {
+  position: absolute;
+  left: 81.92%;
+  right: 2.97%;
+  top: 63rem;
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9f9f9f;
+}
+
+.reviews .reviews-detail-4 .reviews-detail-review {
+  position: absolute;
+  width: 635.69px;
+  height: 54.41px;
+  left: 50px;
+  top: 67rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/*REVIEWS 5*/
+
+.reviews .reviews-detail-5 .reviews-line {
+  position: absolute;
+  width: 674.55px;
+  height: 0px;
+  left: 2rem;
+  top: 74rem;
+  border: 1px solid #e1e0e0;
+}
+
+/* 
+.reviews .reviews-detail .reviews-detail-photo {
+    position: absolute;
+    width: 72.49px;
+    height: 47.83px;
+    left: 7.51px;
+    top: 35.09px;
+    background: url('https://s3-alpha-sig.figma.com/img/3484/2dcf/7913e2a7df3dc2fc000db38ea4bfad2b?Expires=1625443200&Signature=HLixxYjnb7zvzLKECnIORLYnYQ4CO1kXDPF6FA3Dw7-hx1eGIAoO3TWGo3bxZBX2iRplBnBkeBC2Dh3neir5ZnhdM8B5w7OzTodk74FyLWf3uxM8WWjh7SzyNBjtVrAbcxsRxJDaaQ1qQUFpj~09UJ72bziTBJJWxh3a9CUVcWLOUeOwBQEBKbrdP70VnRmNDJoOYjS74P3LBQzpswSBQfU3n7ZxG5oYvbT6DgMKMRF~2nD9ZQJ88jABeAtKr0V7w8sSNA95pmA9uEe6y0jj31Ny0wwk3K1Bp2XbTpAG7B8ceWk0eqyx1I11kOB~~SxjkILQLJPBk84ei59kI1ztgw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+    
+} */
+
+.reviews .reviews-detail-5 .reviews-detail-name {
+  position: absolute;
+  left: 12.13%;
+  right: 83.72%;
+  top: 78rem;
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.reviews .reviews-detail-5 .reviews-detail-star {
+  position: absolute;
+  left: 5.6rem;
+  right: -3.5%;
+  top: 79rem;
+  bottom: 1.37%;
+  border-radius: 0.75px;
+}
+
+.reviews .reviews-detail-5 .reviews-detail-time {
+  position: absolute;
+  left: 81.92%;
+  right: 2.97%;
+  top: 78rem;
+  bottom: 71.59%;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9f9f9f;
+}
+
+.reviews .reviews-detail-5 .reviews-detail-review {
+  position: absolute;
+  width: 635.69px;
+  height: 54.41px;
+  left: 50px;
+  top: 82rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.related-course .text-course {
+  position: absolute;
+  width: 181px;
+  height: 33px;
+  left: 518px;
+  top: 139rem;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+  padding-bottom: 20rem;
+}
+
+/*MAIN CONTENT*/
+
+.related-course .main-course-1 {
+  position: absolute;
+  width: 285.58px;
+  height: 297.32px;
+  left: 510px;
+  top: 143rem;
+  background: linear-gradient(
+      0deg,
+      #ffffff 0.11%,
+      rgba(255, 255, 255, 0.453125) 31.37%,
+      rgba(255, 255, 255, 0) 59.47%
+    ),
+    url("../../assets//test.jpeg");
+  border-radius: 16px;
+  border-style: outset;
+}
+
+.related-course .main-course-1 h1 {
+  position: absolute;
+  width: 81px;
+  height: 33px;
+  left: 13.2px;
+  top: 230px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.related-course .main-course-1 p {
+  position: absolute;
+  width: 63.45px;
+  height: 18.17px;
+  left: 13.2px;
+  top: 260px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.related-course .main-course-1 .picture-content-1-star {
+  position: absolute;
+  width: 19.37px;
+  height: 20.17px;
+  left: -7px;
+  top: -5px;
+  margin-top: 240px;
+}
+
+.related-course .main-course-1 .rating {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  left: 235px;
+  top: 238px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.related-course .main-course-1 .category {
+  position: absolute;
+  width: 69px;
+  height: 19px;
+  left: 200px;
+  top: 261px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+}
+
+.related-course .main-course-1 .start-from {
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  left: -20px;
+  top: 290px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.related-course .main-course-1 .price {
+  position: absolute;
+  width: 141px;
+  height: 25px;
+  left: 4px;
+  top: 320px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #25a7de;
+}
+
+.related-course .main-course-1 .love {
+  position: absolute;
+  width: 19.37px;
+  height: 20.17px;
+  left: 240px;
+  top: 300px;
+}
+
+/*MAIN CONTENT - 1*/
+
+.related-course .main-course-2 {
+  position: absolute;
+  width: 285.58px;
+  height: 297.32px;
+  left: 830px;
+  top: 143rem;
+  background: linear-gradient(
+      0deg,
+      #ffffff 0.11%,
+      rgba(255, 255, 255, 0.453125) 31.37%,
+      rgba(255, 255, 255, 0) 59.47%
+    ),
+    url("../../assets//test.jpeg");
+  border-radius: 16px;
+  border-style: outset;
+}
+
+.related-course .main-course-2 h1 {
+  position: absolute;
+  width: 81px;
+  height: 33px;
+  left: 13.2px;
+  top: 230px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.related-course .main-course-2 p {
+  position: absolute;
+  width: 63.45px;
+  height: 18.17px;
+  left: 13.2px;
+  top: 260px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #828282;
+}
+
+.related-course .main-course-2 .picture-content-1-star {
+  position: absolute;
+  width: 19.37px;
+  height: 20.17px;
+  left: -7px;
+  top: -5px;
+  margin-top: 240px;
+}
+
+.related-course .main-course-2 .rating {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  left: 235px;
+  top: 238px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.related-course .main-course-2 .category {
+  position: absolute;
+  width: 69px;
+  height: 19px;
+  left: 200px;
+  top: 261px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+}
+
+.related-course .main-course-2 .start-from {
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  left: -20px;
+  top: 290px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.related-course .main-course-2 .price {
+  position: absolute;
+  width: 141px;
+  height: 25px;
+  left: 4px;
+  top: 320px;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #25a7de;
+}
+
+.related-course .main-course-2 .love {
+  position: absolute;
+  width: 19.37px;
+  height: 20.17px;
+  left: 250px;
+  top: 310px;
+  left: 240px;
+  top: 300px;
+}
+
+.footer {
+  padding-top: 180rem;
+  width: 100vmax;
+  height: 100vh;
+}
+
+.detail-foto-tutor {
+  height: 270px;
+}
+
+.name-tutu {
+  position: absolute;
+  margin-left: 520px;
+  margin-top: 170px;
+}
